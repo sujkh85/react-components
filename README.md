@@ -1,9 +1,8 @@
+# react components
 
-# [original react-webpack-babel-starter](https://github.com/vikpe/react-webpack-babel-starter)
+* One component is divided into functions and designs.
 
-* add openBrowser, webpack-lifecycle-plugin
-
-# React Webpack Babel Starter
+# Use React Webpack Babel Starter
 Minimal starter kit with hot module replacement (HMR) for rapid development.
 
 * **[React](https://facebook.github.io/react/)** (16.x)
@@ -17,7 +16,8 @@ Minimal starter kit with hot module replacement (HMR) for rapid development.
 
 ## Installation
 1. Clone/download repo
-2. `npm install`
+2-1 `window npm install --global --production windows-build-tools` in only window
+2-2 `npm install`
 
 ## Usage
 **Development**
@@ -50,5 +50,6 @@ Command | Description
 `npm run start` | (alias of `npm run start-dev`)
 
 ## See also
+* [React hoc](https://reactjs.org/docs/higher-order-components.html)
 * [React Webpack Typescript Starter](https://github.com/vikpe/react-webpack-typescript-starter)
 * [Isomorphic Webapp Starter](https://github.com/vikpe/isomorphic-webapp-starter)
